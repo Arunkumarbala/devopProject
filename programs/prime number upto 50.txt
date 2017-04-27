@@ -1,0 +1,42 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+
+       int check=0;
+       
+
+       System.out.println("Prime numbers are:")
+;
+       for(int i=1;i<=50;i++)
+
+       {
+
+           check=0;
+
+       for(int j=1;j<=i;j++)
+
+       {
+
+           if((i%j)==0)
+
+           {
+
+               check++;
+
+           }
+
+       }
+
+       if(check==2)
+
+       {
+
+           System.out.println(i);
+
+       }
+
+       }
+    
+}
+
+}
